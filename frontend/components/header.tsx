@@ -61,6 +61,7 @@ const Header = ({
                     <h3 className="text-[#EBEBF599] text-lg font-bold leading-[ 283.333%] tracking-[-0.6px] mt-3">
                       {initial2}
                     </h3>
+                    
                     <p className="text-white text-2xl font-bold leading-[ 283.333%] tracking-[-0.6px] mt-3">
                       {team2players}
                     </p>
