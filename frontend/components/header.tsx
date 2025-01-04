@@ -2,8 +2,6 @@
 import React from 'react';
 import Navbar from './navbar';
 import Image from 'next/image';
-import GraphModal from './graphModal';
-import WhyModal from './whyUsModal';
 
 interface HeaderProps {
   initial1: string;
@@ -69,24 +67,6 @@ const Header = ({
                   </div>
                 </div>
               </div>
-              {/* credits div */}
-            </div>
-            <div className="flex flex-col absolute right-0 w-[22%]">
-              <WhyModal
-                Heading="Why this Model?"
-                Component={() => (
-                  <img
-                    src="/videos/mascot.gif" // Path relative to the 'public' folder
-                    alt="Mascot GIF"
-                    style={{
-                      maxWidth: '100%',
-                      height: 'auto',
-                      borderRadius: '10px',
-                      marginTop: '20px',
-                    }}
-                  />
-                )}
-              />
             </div>
           </div>
         </div>
